@@ -1,4 +1,5 @@
 {
+  "dummy-change": true,
   "archive": {
     "host": "peertube.archive.pocketnet.app",
     "upload": false
