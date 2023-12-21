@@ -20,23 +20,23 @@ jobs:
         run: |
           #!/bin/bash
 
-          # Read JSON file
-          JSON_FILE="list.json"
-          JSON_CONTENT=$(cat $JSON_FILE)
+        # Read JSON file
+        JSON_FILE="list.json"
+        JSON_CONTENT=$(cat $JSON_FILE)
 
-          # Loop through hosts
-          HOSTS=$(echo $JSON_CONTENT | jq -c '.swarms | .. | .host?' | grep -v null | sed 's/\"//g')
-          for HOST in $HOSTS; do
+        # Loop through hosts
+        HOSTS=$(echo $JSON_CONTENT | jq -c '.swarms | .. | .host?' | grep -v null | sed 's/\"//g')
+        for HOST in $HOSTS; do
             # Get IP address
             IP=$(dig +short $HOST)
             if [ -n "$IP" ]; then
                 # Update or add "ip" property
-                JSON_CONTENT=$(echo "$JSON_CONTENT" | jq --arg host "$HOST" --arg ip "$IP" '.swarms[]."'"$HOST"'" |= .list[] |= . + {"ip": $ip}')
+                JSON_CONTENT=$(echo "$JSON_CONTENT" | jq --arg host "$HOST" --arg ip "$IP" '.swarms."'$HOST'".list[] |= . + {"ip": $ip}')
             fi
         done
 
         # Write updated JSON back to file
-          echo $JSON_CONTENT > $JSON_FILE
+        echo "$JSON_CONTENT" > $JSON_FILE
 
       - name: Commit changes
         run: |
