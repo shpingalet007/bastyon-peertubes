@@ -30,12 +30,12 @@ jobs:
             # Get IP address
             IP=$(dig +short $HOST)
             if [ -n "$IP" ]; then
-              # Update or add "ip" property
-              JSON_CONTENT=$(echo $JSON_CONTENT | jq --arg host "$HOST" --arg ip "$IP" '.swarms[] | select(.list[]?.host == $host) |= .list[] |= . + {"ip": $ip}')
+                # Update or add "ip" property
+                JSON_CONTENT=$(echo "$JSON_CONTENT" | jq --arg host "$HOST" --arg ip "$IP" '.swarms[]."'"$HOST"'" |= .list[] |= . + {"ip": $ip}')
             fi
-          done
+        done
 
-          # Write updated JSON back to file
+        # Write updated JSON back to file
           echo $JSON_CONTENT > $JSON_FILE
 
       - name: Commit changes
