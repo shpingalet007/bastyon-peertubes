@@ -11,34 +11,20 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
-      - name: Install dnsutils
-        run: sudo apt-get install dnsutils
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '14'
+
+      - name: Install Dependencies
+        run: npm install
 
       - name: Update IP addresses
-        run: |
-          #!/bin/bash
+        run: node update-ip.js
 
-        # Read JSON file
-        JSON_FILE="list.json"
-        JSON_CONTENT=$(cat $JSON_FILE)
-
-        # Loop through hosts
-        HOSTS=$(echo $JSON_CONTENT | jq -c '.swarms | .. | .host?' | grep -v null | sed 's/\"//g')
-        for HOST in $HOSTS; do
-            # Get IP address
-            IP=$(dig +short $HOST)
-            if [ -n "$IP" ]; then
-                # Update or add "ip" property
-                JSON_CONTENT=$(echo "$JSON_CONTENT" | jq --arg host "$HOST" --arg ip "$IP" '.swarms."'$HOST'".list[] |= . + {"ip": $ip}')
-            fi
-        done
-
-        # Write updated JSON back to file
-        echo "$JSON_CONTENT" > $JSON_FILE
-
-      - name: Commit changes
+      - name: Commit Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
