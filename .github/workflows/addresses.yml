@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,6 +30,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          PR_BRANCH=$(echo $GITHUB_REF | sed 's/refs\/heads\///')
+          git checkout -b $PR_BRANCH
           git add list.json
           git commit -m "Update IP addresses"
-          git push
+          git push origin $PR_BRANCH
