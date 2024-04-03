@@ -713,6 +713,17 @@
           "online": true
         }
       ]
+    },
+    "ts01": {
+      "archived": false,
+      "testnet": true,
+      "list": [
+        {
+          "host": "test.peertube.pocketnet.app",
+          "upload": true,
+          "online": true
+        }
+      ]
     }
   }
 }
