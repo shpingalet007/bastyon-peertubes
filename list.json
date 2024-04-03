@@ -1,5 +1,5 @@
 {
-  "lastChecked": 1703189815238,
+  "lastChecked": 1712154840783,
   "archive": {
     "ar01": {
       "host": "peertube.archive.pocketnet.app",
@@ -710,6 +710,18 @@
           "ip": "185.148.146.11",
           "upload": true,
           "special": true,
+          "online": true
+        }
+      ]
+    },
+    "ts01": {
+      "archived": false,
+      "testnet": true,
+      "list": [
+        {
+          "host": "test.peertube.pocketnet.app",
+          "ip": "65.108.83.132",
+          "upload": true,
           "online": true
         }
       ]
