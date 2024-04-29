@@ -1,5 +1,5 @@
 {
-  "lastChecked": 1712154840783,
+  "lastChecked": 1714375722887,
   "archive": {
     "ar01": {
       "host": "peertube.archive.pocketnet.app",
@@ -554,7 +554,9 @@
       ]
     },
     "s35": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube33.pocketnet.app",
