@@ -1,5 +1,5 @@
 {
-  "lastChecked": 1714375722887,
+  "lastChecked": 1714555609755,
   "archive": {
     "ar01": {
       "host": "peertube.archive.pocketnet.app",
@@ -609,7 +609,9 @@
       ]
     },
     "s39": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube51.pocketnet.app",
@@ -621,7 +623,9 @@
       ]
     },
     "s40": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube41.pocketnet.app",
@@ -633,7 +637,9 @@
       ]
     },
     "s41": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube70.pocketnet.app",
@@ -645,7 +651,9 @@
       ]
     },
     "s42": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube80.pocketnet.app",
@@ -657,7 +665,9 @@
       ]
     },
     "s43": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube90.pocketnet.app",
@@ -669,7 +679,9 @@
       ]
     },
     "s44": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube100.pocketnet.app",
@@ -712,6 +724,18 @@
           "ip": "185.148.146.11",
           "upload": true,
           "special": true,
+          "online": true
+        }
+      ]
+    },
+    "s48": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube361.pocketnet.app",
+          "ip": "185.141.63.171",
+          "upload": true,
+          "special": false,
           "online": true
         }
       ]
