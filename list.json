@@ -710,7 +710,7 @@
         {
           "host": "peertube341.pocketnet.app",
           "ip": "185.141.60.119",
-          "upload": true,
+          "upload": false,
           "special": false,
           "online": true
         }
