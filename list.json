@@ -752,6 +752,30 @@
         }
       ]
     },
+    "s50": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube400.pocketnet.app",
+          "ip": "5.78.128.55",
+          "upload": true,
+          "special": false,
+          "online": true
+        }
+      ]
+    },
+    "s51": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube500.pocketnet.app",
+          "ip": "5.78.101.131",
+          "upload": true,
+          "special": false,
+          "online": true
+        }
+      ]
+    },
     "ts01": {
       "archived": false,
       "testnet": true,
