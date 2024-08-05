@@ -717,7 +717,9 @@
       ]
     },
     "s47": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube351.pocketnet.app",
