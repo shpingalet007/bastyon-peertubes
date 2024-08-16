@@ -748,7 +748,7 @@
         {
           "host": "peertube371.pocketnet.app",
           "ip": "185.141.63.53",
-          "upload": true,
+          "upload": false,
           "special": false,
           "online": true
         }
@@ -786,6 +786,42 @@
           "ip": "185.148.146.11",
           "upload": true,
           "special": true,
+          "online": true
+        }
+      ]
+    },
+    "s54": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube600.pocketnet.app",
+          "ip": "185.148.147.143",
+          "upload": true,
+          "special": false,
+          "online": true
+        }
+      ]
+    },
+    "s54": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube700.pocketnet.app",
+          "ip": "185.148.146.43",
+          "upload": true,
+          "special": false,
+          "online": true
+        }
+      ]
+    },
+    "s55": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube800.pocketnet.app",
+          "ip": "91.92.144.143",
+          "upload": true,
+          "special": false,
           "online": true
         }
       ]
