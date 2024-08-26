@@ -5,26 +5,6 @@
       "host": "peertube.archive.pocketnet.app",
       "upload": false
     },
-    "xx01": {
-      "host": "peertube41.pocketnet.app",
-      "upload": false
-    },
-    "xx02": {
-      "host": "peertube51.pocketnet.app",
-      "upload": false
-    },
-    "xx03": {
-      "host": "peertube321.pocketnet.app",
-      "upload": false
-    },
-    "xx04": {
-      "host": "peertube341.pocketnet.app",
-      "upload": false
-    },
-    "xx05": {
-      "host": "peertube351.pocketnet.app",
-      "upload": false
-    }
   },
   "swarms": {
     "s01": {
@@ -500,7 +480,6 @@
     },
     "s31": {
       "archived": [
-        "xx02",
         "ar01"
       ],
       "list": [
@@ -514,7 +493,6 @@
     },
     "s32": {
       "archived": [
-        "xx01",
         "ar01"
       ],
       "list": [
@@ -541,7 +519,6 @@
     },
     "s34": {
       "archived": [
-        "xx03",
         "ar01"
       ],
       "list": [
@@ -569,7 +546,6 @@
     },
     "s36": {
       "archived": [
-        "xx04",
         "ar01"
       ],
       "list": [
@@ -583,7 +559,6 @@
     },
     "s37": {
       "archived": [
-        "xx05",
         "ar01"
       ],
       "list": [
