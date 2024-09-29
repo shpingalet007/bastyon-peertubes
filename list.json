@@ -441,7 +441,9 @@
       ]
     },
     "s28": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube28.pocketnet.app",
@@ -506,7 +508,9 @@
       ]
     },
     "s33": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube6new.pocketnet.app",
