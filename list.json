@@ -544,7 +544,7 @@
           "ip": "185.141.60.118",
           "upload": true,
           "special": false,
-          "online": true
+          "online": false
         }
       ]
     },
@@ -799,6 +799,18 @@
         {
           "host": "peertube800.pocketnet.app",
           "ip": "91.92.144.143",
+          "upload": true,
+          "special": false,
+          "online": true
+        }
+      ]
+    },
+    "s56": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube331.pocketnet.app",
+          "ip": "185.141.60.118",
           "upload": true,
           "special": false,
           "online": true
