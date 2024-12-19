@@ -517,7 +517,7 @@
           "ip": "159.69.127.9",
           "upload": false,
           "special": false,
-          "online": true
+          "online": false
         }
       ]
     },
@@ -827,6 +827,18 @@
           "ip": "138.201.91.156",
           "upload": true,
           "special": false,
+          "online": true
+        }
+      ]
+    },
+    "s58": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube353.pocketnet.app",
+          "ip": "185.148.146.11",
+          "upload": true,
+          "special": true,
           "online": true
         }
       ]
