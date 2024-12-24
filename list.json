@@ -843,6 +843,18 @@
         }
       ]
     },
+    "s59": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube160.pocketnet.app",
+          "ip": "185.141.60.22",
+          "upload": true,
+          "special": false,
+          "online": true
+        }
+      ]
+    },
     "ts01": {
       "archived": false,
       "testnet": true,
