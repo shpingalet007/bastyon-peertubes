@@ -684,7 +684,9 @@
       ]
     },
     "s46": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube341.pocketnet.app",
