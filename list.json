@@ -827,7 +827,7 @@
         {
           "host": "peertube281.pocketnet.app",
           "ip": "138.201.91.156",
-          "upload": true,
+          "upload": false,
           "special": false,
           "online": true
         }
@@ -865,7 +865,7 @@
         {
           "host": "peertube354.pocketnet.app",
           "ip": "185.148.146.11",
-          "upload": true,
+          "upload": false,
           "special": true,
           "online": true
         }
