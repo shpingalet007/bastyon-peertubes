@@ -890,14 +890,16 @@
       ]
     },
     "s61": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube355.pocketnet.app",
           "ip": "185.148.146.11",
           "upload": false,
           "special": true,
-          "online": true
+          "online": false
         }
       ]
     },
