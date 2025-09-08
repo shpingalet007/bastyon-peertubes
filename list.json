@@ -758,14 +758,16 @@
       ]
     },
     "s51": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube500.pocketnet.app",
           "ip": "5.78.101.131",
-          "upload": true,
+          "upload": false,
           "special": false,
-          "online": true
+          "online": false
         }
       ]
     },
