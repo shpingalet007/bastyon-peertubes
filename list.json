@@ -746,14 +746,16 @@
       ]
     },
     "s50": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube400.pocketnet.app",
           "ip": "5.78.128.55",
-          "upload": true,
+          "upload": false,
           "special": false,
-          "online": true
+          "online": false
         }
       ]
     },
