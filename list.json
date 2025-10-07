@@ -682,14 +682,16 @@
       ]
     },
     "s45": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube321.pocketnet.app",
           "ip": "185.141.60.101",
-          "upload": true,
+          "upload": false,
           "special": false,
-          "online": true
+          "online": false
         }
       ]
     },
