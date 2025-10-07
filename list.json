@@ -959,6 +959,18 @@
         }
       ]
     },
+    "s66": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube900.pocketnet.app",
+          "ip": "94.156.128.242",
+          "upload": true,
+          "special": false,
+          "online": true
+        }
+      ]
+    },
     "ts01": {
       "archived": false,
       "testnet": true,
