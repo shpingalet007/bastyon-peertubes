@@ -973,6 +973,18 @@
         }
       ]
     },
+    "s67": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube322.pocketnet.app",
+          "ip": "185.141.60.101",
+          "upload": true,
+          "special": false,
+          "online": true
+        }
+      ]
+    },
     "ts01": {
       "archived": false,
       "testnet": true,
