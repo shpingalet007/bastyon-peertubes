@@ -798,7 +798,7 @@
       "list": [
         {
           "host": "peertube600.pocketnet.app",
-          "ip": "185.148.147.143",
+          "ip": "185.148.147.0",
           "upload": false,
           "special": false,
           "online": false
