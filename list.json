@@ -999,6 +999,18 @@
         }
       ]
     },
+     "s69": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube101.pocketnet.app",
+          "ip": "185.148.145.4",
+          "upload": true,
+          "special": false,
+          "online": true
+        }
+      ]
+    },
     "ts01": {
       "archived": false,
       "testnet": true,
