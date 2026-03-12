@@ -1025,6 +1025,18 @@
         }
       ]
     },
+    "s71": {
+      "archived": false,
+      "list": [
+        {
+          "host": "peertube1000.pocketnet.app",
+          "ip": "185.148.146.120",
+          "upload": true,
+          "special": false,
+          "online": true
+        }
+      ]
+    },
     "ts01": {
       "archived": false,
       "testnet": true,
