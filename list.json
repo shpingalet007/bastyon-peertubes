@@ -1014,14 +1014,16 @@
       ]
     },
     "s70": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube359.pocketnet.app",
           "ip": "185.148.146.11",
           "upload": false,
           "special": true,
-          "online": true
+          "online": false
         }
       ]
     },
