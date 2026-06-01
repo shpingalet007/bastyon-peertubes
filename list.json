@@ -738,14 +738,16 @@
       ]
     },
     "s49": {
-      "archived": false,
+      "archived": [
+        "ar01"
+      ],
       "list": [
         {
           "host": "peertube371.pocketnet.app",
           "ip": "185.141.63.53",
           "upload": false,
           "special": false,
-          "online": true
+          "online": false
         }
       ]
     },
@@ -917,7 +919,7 @@
         {
           "host": "peertube601.pocketnet.app",
           "ip": "185.148.147.143",
-          "upload": false,
+          "upload": true,
           "special": false,
           "online": true
         }
