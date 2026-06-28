@@ -827,7 +827,7 @@
         {
           "host": "peertube800.pocketnet.app",
           "ip": "91.92.144.143",
-          "upload": true,
+          "upload": false,
           "special": false,
           "online": true
         }
